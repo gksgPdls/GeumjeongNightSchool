@@ -1,0 +1,16 @@
+{
+  "name": "night_school_app_dev_libs",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "./interface/*": "./dist/*.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

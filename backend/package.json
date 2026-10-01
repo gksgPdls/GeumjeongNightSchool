@@ -1,0 +1,52 @@
+{
+  "name": "night_school_app_dev_backend",
+  "version": "1.0.0",
+  "description": "Backend for Night School App",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "start:dev": "nest start --watch",
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:cov": "jest --coverage",
+    "test:e2e": "jest --config ./test/jest-e2e.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/cache-manager": "^3.0.0",
+    "@nestjs/swagger": "^11.2.0",
+    "@types/bcrypt": "^6.0.0",
+    "@types/passport-jwt": "^4.0.1",
+    "cache-manager": "^6.4.0",
+    "date-fns": "^2.30.0",
+    "helmet": "^7.2.0",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^9.0.0",
+    "@nestjs/common": "^11.0.9",
+    "@nestjs/config": "^4.0.0",
+    "@nestjs/core": "^11.0.9",
+    "@nestjs/jwt": "^11.0.0",
+    "@nestjs/mapped-types": "^2.1.0",
+    "@nestjs/passport": "^11.0.5",
+    "@nestjs/platform-express": "^11.1.6",
+    "@nestjs/testing": "^11.1.6",
+    "@nestjs/typeorm": "^11.0.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^22.13.4",
+    "@types/supertest": "^6.0.3",
+    "bcrypt": "^5.1.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "jest": "^29.7.0",
+    "passport-jwt": "^4.0.1",
+    "pg": "^8.13.3",
+    "supertest": "^7.1.4",
+    "ts-jest": "^29.4.1",
+    "typescript": "~5.8.3"
+  }
+}

@@ -1,0 +1,18 @@
+[
+    {
+      "class_type": "DAISY",
+      "event_date": "2025-03-15",
+      "event_type": "CLASS",
+      "is_recurring": false,
+      "recurrence_pattern": null,
+      "description": "First sample class event."
+    },
+    {
+      "class_type": "DANDELION",
+      "event_date": "2025-03-16",
+      "event_type": "CLASS",
+      "is_recurring": false,
+      "recurrence_pattern": null,
+      "description": "Second sample class event."
+    }
+  ]
